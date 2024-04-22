@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function SideBar() {
   return (
-    <div className="flex-none overflow-y-scroll text-sm py-2 px-7">
+    <div className="flex-none flex-shrink-0 w-80 overflow-y-scroll text-sm py-2 px-7">
       <ul>
         <li>
           <Link to="" className="pl-4">
