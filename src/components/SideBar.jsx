@@ -9,19 +9,26 @@ function SideBar() {
             Inicio
           </Link>
         </li>
+        <br />
+        <li className="font-bold">Conceptos Principales</li>
         <li>
-          <Link to="rutas-basicas" className="pl-4">
-            Rutas básicas
+          <Link to="jsx" className="pl-4">
+            JSX
           </Link>
         </li>
         <li>
-          <Link to="rutas-parametros" className="pl-4">
-            Rutas con parámetros
+          <Link to="propiedades" className="pl-4">
+            Propiedades
           </Link>
         </li>
         <li>
-          <Link to="rutas-secundarias" className="pl-4">
-            Rutas Secundarias
+          <Link to="eventos" className="pl-4">
+            Eventos
+          </Link>
+        </li>
+        <li>
+          <Link to="listas" className="pl-4">
+            Listas
           </Link>
         </li>
       </ul>
