@@ -31,6 +31,18 @@ function SideBar() {
             Listas
           </Link>
         </li>
+        <br />
+        <li className="font-bold">Hooks</li>
+        <li>
+          <Link to="usestate" className="pl-4">
+            useState()
+          </Link>
+        </li>
+        <li>
+          <Link to="useeffect" className="pl-4">
+            useEffect()
+          </Link>
+        </li>
       </ul>
     </div>
   );

@@ -2,10 +2,14 @@ import './App.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import NavBar from './components/NavBar'
 import SideBar from './components/SideBar'
+// ------------------------------ Conceptos Principales ------------------------------
 import JSX from './pages/principales/JSX'
 import Propiedades from './pages/principales/Propiedades'
 import Eventos from './pages/principales/Eventos'
 import Listas from './pages/principales/Listas'
+// ------------------------------ Hooks ------------------------------
+import UseState from './pages/hooks/UseState'
+import UseEffect from './pages/hooks/UseEffect'
 
 function App() {
 
@@ -14,7 +18,7 @@ function App() {
       <NavBar />
       <main>
         <SideBar />
-        <div className="pl-4">
+        <div className="w-full p-4 overflow-y-scroll">
           <Routes>
             <Route path="/" element={<><h1>Inicio</h1><p>Un poco de práctica...</p></>}></Route>
 
@@ -31,6 +35,10 @@ function App() {
             />}></Route>
             <Route path="/eventos" element={<Eventos />}></Route>
             <Route path="/listas" element={<Listas />}></Route>
+
+            {/* ------------------------------ Hooks ------------------------------ */}
+            <Route path="/usestate" element={<UseState />}></Route>
+            <Route path="/useeffect" element={<UseEffect />}></Route>
 
             <Route path="*" element={<h1>400 Page not found.</h1>} />
           </Routes>

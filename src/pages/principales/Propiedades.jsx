@@ -4,7 +4,11 @@ export default function Propiedades(props) {
     return (
         <>
             <h1>{props.porDefecto}</h1>
+            
             <p>Las props son de solo lectura. Un componente nunca debe modificar sus props.</p>
+
+            <br />
+
             <p>{props.cadena}</p>
             <p>{props.numero}</p>
             <p>{props.booleano ? "Verdadero" : "Falso"}</p>
