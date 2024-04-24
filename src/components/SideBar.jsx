@@ -57,6 +57,16 @@ function SideBar() {
             useCallback()
           </Link>
         </li>
+        <li>
+          <Link to="usememo" className="pl-4">
+            useMemo()
+          </Link>
+        </li>
+        <li>
+          <Link to="usecontext" className="pl-4">
+            useContext()
+          </Link>
+        </li>
 
         <br />
 

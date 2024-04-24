@@ -1,16 +1,14 @@
 import { memo, useState } from "react";
 
 const Contador1 = () => {
-
-  console.log("Contador 1 se renderiza")
-
+  // console.log("Contador 1 se renderiza")
   return (
     <></>
   )
 }
 
 const Contador2 = memo(() => {
-  console.log("Contador 2 se renderiza");
+  // console.log("Contador 2 se renderiza");
   return <></>;
 });
 Contador2.displayName = "Contador2"; // Asigna el nombre del componente
