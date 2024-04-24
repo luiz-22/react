@@ -5,8 +5,6 @@ export default function UseRef() {
     let refMenu = useRef(),
         refMenuBtn = useRef();
 
-    //setTimeout(() => console.log(refMenu, refMenuBtn), 1000)
-
     const handleToggleMenu = () => {
         if (refMenuBtn.current.textContent === "Menú") {       // Uso la referencia para manupular el elemento
             refMenuBtn.current.textContent = "Cerrar";         // Atributo current de las referencia

@@ -11,6 +11,9 @@ import Listas from './pages/principales/Listas'
 import UseState from './pages/hooks/UseState'
 import UseEffect from './pages/hooks/UseEffect'
 import UseRef from './pages/hooks/UseRef'
+import UseCallback from './pages/hooks/UseCallback'
+// ------------------------------ APIs ------------------------------
+import Memo from './pages/apis/Memo'
 
 function App() {
 
@@ -41,6 +44,10 @@ function App() {
             <Route path="/usestate" element={<UseState />}></Route>
             <Route path="/useeffect" element={<UseEffect />}></Route>
             <Route path="/useref" element={<UseRef />}></Route>
+            <Route path="/usecallback" element={<UseCallback />}></Route>
+
+            {/* ------------------------------ APIs ------------------------------ */}
+            <Route path="/memo" element={<Memo />}></Route>
 
             <Route path="*" element={<h1>400 Page not found.</h1>} />
           </Routes>

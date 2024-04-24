@@ -9,7 +9,9 @@ function SideBar() {
             Inicio
           </Link>
         </li>
+
         <br />
+
         <li className="font-bold">Conceptos Principales</li>
         <li>
           <Link to="jsx" className="pl-4">
@@ -31,7 +33,9 @@ function SideBar() {
             Listas
           </Link>
         </li>
+
         <br />
+
         <li className="font-bold">Hooks</li>
         <li>
           <Link to="usestate" className="pl-4">
@@ -46,6 +50,20 @@ function SideBar() {
         <li>
           <Link to="useref" className="pl-4">
             useRef()
+          </Link>
+        </li>
+        <li>
+          <Link to="usecallback" className="pl-4">
+            useCallback()
+          </Link>
+        </li>
+
+        <br />
+
+        <li className="font-bold">APIs</li>
+        <li>
+          <Link to="memo" className="pl-4">
+            Memo
           </Link>
         </li>
       </ul>
