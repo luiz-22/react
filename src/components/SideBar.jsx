@@ -43,6 +43,11 @@ function SideBar() {
             useEffect()
           </Link>
         </li>
+        <li>
+          <Link to="useref" className="pl-4">
+            useRef()
+          </Link>
+        </li>
       </ul>
     </div>
   );

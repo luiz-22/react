@@ -10,6 +10,7 @@ import Listas from './pages/principales/Listas'
 // ------------------------------ Hooks ------------------------------
 import UseState from './pages/hooks/UseState'
 import UseEffect from './pages/hooks/UseEffect'
+import UseRef from './pages/hooks/UseRef'
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
             {/* ------------------------------ Hooks ------------------------------ */}
             <Route path="/usestate" element={<UseState />}></Route>
             <Route path="/useeffect" element={<UseEffect />}></Route>
+            <Route path="/useref" element={<UseRef />}></Route>
 
             <Route path="*" element={<h1>400 Page not found.</h1>} />
           </Routes>
