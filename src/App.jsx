@@ -14,6 +14,7 @@ import UseRef from './pages/hooks/UseRef'
 import UseCallback from './pages/hooks/UseCallback'
 import UseMemo from './pages/hooks/UseMemo'
 import UseContext from './pages/hooks/UseContext'
+import UseReducer from './pages/hooks/UseReducer'
 // ------------------------------ APIs ------------------------------
 import Memo from './pages/apis/Memo'
 
@@ -49,6 +50,7 @@ function App() {
             <Route path="/usecallback" element={<UseCallback />}></Route>
             <Route path="/usememo" element={<UseMemo/>}></Route>
             <Route path="/usecontext" element={<UseContext/>}></Route>
+            <Route path="/usereducer" element={<UseReducer/>}></Route>
 
             {/* ------------------------------ APIs ------------------------------ */}
             <Route path="/memo" element={<Memo />}></Route>

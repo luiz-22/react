@@ -67,6 +67,11 @@ function SideBar() {
             useContext()
           </Link>
         </li>
+        <li>
+          <Link to="usereducer" className="pl-4">
+            useReducer()
+          </Link>
+        </li>
 
         <br />
 
