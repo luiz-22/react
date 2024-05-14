@@ -1,6 +1,6 @@
 <h1 align="center">React</h1>
 
-Practica con React.
+Práctica con React.
 
 ## Instalar y ejecutar
 
