@@ -2,6 +2,22 @@
 
 Práctica con React.
 
+## Temas
+
+- JSX
+- Propiedades
+- Eventos
+- Listas
+- Hooks
+- useState()
+- useEffect()
+- useRef()
+- useCallback()
+- useMemo()
+- useContext()
+- useReducer()
+- Memo
+
 ## Instalar y ejecutar
 
 ```bash
