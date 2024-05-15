@@ -22,5 +22,8 @@ Práctica con React.
 
 ```bash
 npm i
+```
+
+```bash
 npm run dev
 ```
