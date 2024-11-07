@@ -1,6 +1,6 @@
 <h1 align="center">React</h1>
 
-Práctica con React.
+Conceptos básicos de React
 
 ## Temas
 
@@ -18,11 +18,13 @@ Práctica con React.
 - useReducer()
 - Memo
 
-## Instalar y ejecutar
+## Instalar
 
 ```bash
 npm i
 ```
+
+## Ejecutar
 
 ```bash
 npm run dev
