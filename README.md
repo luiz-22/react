@@ -2,7 +2,7 @@
 
 Conceptos básicos de React
 
-## Temas
+## 📖 Temas
 
 - JSX
 - Propiedades
@@ -18,14 +18,9 @@ Conceptos básicos de React
 - useReducer()
 - Memo
 
-## Instalar
+## 🔧 Instalación y ejecución
 
 ```bash
 npm i
-```
-
-## Ejecutar
-
-```bash
 npm run dev
 ```
