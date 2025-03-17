@@ -1,4 +1,4 @@
-<h1 align="center">React</h1>
+# React
 
 Conceptos básicos de React
 
